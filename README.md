@@ -23,14 +23,14 @@ This repository is a simple **desktop To-Do List app** I built using **Java (Swi
   
 ---                                          
 
-## 🎥 Demo & Screenshots
+## 🎥 Demo & Screenshots                                                                    
 *Here’s a quick demo of the File Organizer App in action:*
 ![To-Do App Demo](assets/toDoDemo.gif)
 
-*Empty Task List*
+*Empty Task List*                                                                                    
 ![Main UI](assets/emptyTask.png)
 
-*Task List with Pending & Completed Tasks*
+*Task List with Pending & Completed Tasks*                                    
 ![Completed Task State](assets/withTasks.png)
 
 ---

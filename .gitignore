@@ -1,29 +1,67 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# =====================================
+# IntelliJ IDEA project files
+# =====================================
+.idea/
+*.iml
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# =====================================
+# Build output
+# =====================================
+/out/
+target/
+*.class
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# =====================================
+# Logs
+# =====================================
+*.log
 
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# =====================================
+# OS-specific files
+# =====================================
 .DS_Store
+Thumbs.db
+
+# =====================================
+# JAR files
+# Ignore all JARs except those in /libs/
+# =====================================
+*.jar
+!libs/*.jar
+
+# =====================================
+# Executables and installers
+# =====================================
+*.exe
+*.dll
+*.iss
+
+# =====================================
+# Temporary / swap files
+# =====================================
+*.tmp
+*.swp
+
+# =====================================
+# User data (runtime files like tasks.json)
+# =====================================
+data/
+
+# =====================================
+# Archives
+# =====================================
+*.zip
+*.tar
+*.tar.gz
+
+# =====================================
+# Local JRE/JDK (don’t upload Java itself)
+# =====================================
+jre/
+jdk/
+
+# =====================================
+# Keep documentation and resources
+# =====================================
+!assets/**
+!resources/**
